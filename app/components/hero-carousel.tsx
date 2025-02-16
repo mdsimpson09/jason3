@@ -4,8 +4,8 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 
 const images = [
-  "/assets/img/portfolio/blackbelt2.jpg",
-  "/assets/img/portfolio/pink.jpg",
+  "/assets/img/portfolio/blackbelt.jpg",
+  "/assets/img/portfolio/dark1.jpg",
   "/assets/img/portfolio/IMG_6844.jpeg",
 ]
 
