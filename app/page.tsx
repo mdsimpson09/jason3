@@ -80,7 +80,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="p-8 bg-white shadow-sm text-gray-800 border-2 border-gray-400">
-                <h3 className="text-xl font-light mb-4">Featured Gallery</h3>
+                <h3 className="text-xl font-light mb-4 text-gray-800">Featured Gallery</h3>
                 <p className="text-gray-600 mb-4">
                   Explore my gallery of meticulously crafted knives, each one representing my commitment
                   to quality and design.
