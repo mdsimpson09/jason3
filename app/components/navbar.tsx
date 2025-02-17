@@ -128,8 +128,9 @@ export default function Navbar() {
               </button>
               <nav className="flex flex-col mt-16 space-y-4 border-t border-gray-400 pt-4">
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/about">About</Link>
-                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/portfolio">Portfolio</Link>
-                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">Process</Link>
+                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/portfolio">Gallery</Link>
+                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">My Process</Link>
+                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">How it works</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/contact">Contact</Link>
               </nav>
             </SheetContent>
