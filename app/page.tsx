@@ -72,14 +72,14 @@ export default function Home() {
               your vision to life.
             </p>
             <div className="grid gap-8 mb-12">
-              <div className="p-8 bg-white shadow-sm">
+              <div className="p-8 bg-white shadow-sm border-2 border-gray-400">
                 <h3 className="text-xl font-light mb-4 text-gray-800">Custom Design Process</h3>
                 <p className="text-gray-600 mb-4">
                   Share your ideas with me and collaborate on creating your perfect knife. From initial concept to
                   final details, we'll work together to craft exactly what you envision.
                 </p>
               </div>
-              <div className="p-8 bg-white shadow-sm text-gray-800">
+              <div className="p-8 bg-white shadow-sm text-gray-800 border-2 border-gray-400">
                 <h3 className="text-xl font-light mb-4">Featured Gallery</h3>
                 <p className="text-gray-600 mb-4">
                   Explore my gallery of meticulously crafted knives, each one representing my commitment
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
             <Link
               href="/portfolio"
-              className="inline-block border-2 border-black px-8 py-3 text-sm uppercase tracking-wider hover:bg-black hover:text-white transition-colors"
+              className="inline-block border-2 border-black px-8 py-3 text-sm uppercase tracking-wider hover:bg-black hover:text-white transition-colors text-black"
             >
               View Gallery
             </Link>
