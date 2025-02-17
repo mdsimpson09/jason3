@@ -30,8 +30,8 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ items }) => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-sm uppercase tracking-widest text-gray-600">Explore Our</span>
-          <h2 className="text-3xl font-light tracking-wider mt-2">SIGNATURE STYLES</h2>
+          <span className="text-sm uppercase tracking-widest text-gray-600">In The</span>
+          <h2 className="-mb-20 text-3xl font-light tracking-wider mt-2">SPOTLIGHT</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
