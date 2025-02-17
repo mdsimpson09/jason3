@@ -12,7 +12,7 @@ export default function ProcessPage() {
       <section className="py-24 bg-gray-50 text-center">
         <h1 className="text-4xl font-light tracking-wider mb-4">Our Process</h1>
         <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-          Every Feder Knife is a one-of-a-kind masterpiece crafted with care, ensuring each blade is a unique heirloom built to last for generations.
+          Every Knife is a one-of-a-kind masterpiece crafted with care, ensuring each blade is a unique heirloom built to last for generations.
         </p>
       </section>
 

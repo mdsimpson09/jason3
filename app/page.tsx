@@ -68,21 +68,21 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-light tracking-wider mb-6">HOW IT WORKS</h2>
             <p className="text-gray-600 mb-12">
-              Whether you're interested in our signature collection or dreaming of a custom piece, we're here to bring
+              Whether you're interested in one of my designs or dreaming of a custom piece, I'm here to bring
               your vision to life.
             </p>
             <div className="grid gap-8 mb-12">
               <div className="p-8 bg-white shadow-sm">
                 <h3 className="text-xl font-light mb-4">Custom Design Process</h3>
                 <p className="text-gray-600 mb-4">
-                  Share your ideas with Jason and collaborate on creating your perfect knife. From initial concept to
+                  Share your ideas with me and collaborate on creating your perfect knife. From initial concept to
                   final details, we'll work together to craft exactly what you envision.
                 </p>
               </div>
               <div className="p-8 bg-white shadow-sm">
                 <h3 className="text-xl font-light mb-4">Featured Collection</h3>
                 <p className="text-gray-600 mb-4">
-                  Explore our signature collection of meticulously crafted knives, each one representing our commitment
+                  Explore my gallery of meticulously crafted knives, each one representing my commitment
                   to quality and design.
                 </p>
               </div>
