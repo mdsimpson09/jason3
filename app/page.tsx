@@ -80,7 +80,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="p-8 bg-white shadow-sm">
-                <h3 className="text-xl font-light mb-4">Featured Collection</h3>
+                <h3 className="text-xl font-light mb-4">Featured Gallery</h3>
                 <p className="text-gray-600 mb-4">
                   Explore my gallery of meticulously crafted knives, each one representing my commitment
                   to quality and design.
@@ -88,10 +88,10 @@ export default function Home() {
               </div>
             </div>
             <Link
-              href="/contact"
+              href="/portfolio"
               className="inline-block border-2 border-black px-8 py-3 text-sm uppercase tracking-wider hover:bg-black hover:text-white transition-colors"
             >
-              Contact Here
+              View Gallery
             </Link>
           </div>
         </div>
