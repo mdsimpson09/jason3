@@ -130,7 +130,7 @@ export default function Navbar() {
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/about">About</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/portfolio">Gallery</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">My Process</Link>
-                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">How it works</Link>
+                <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/howitworks">How it works</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/contact">Contact</Link>
               </nav>
             </SheetContent>
