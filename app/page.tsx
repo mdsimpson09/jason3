@@ -10,12 +10,12 @@ import NavigationGrid from "./components/NavigationGrid"
 
 
 const portfolioItems = [
-  { imageSrc: "/assets/img/portfolio/1.jpg", title: "CHEF'S KNIFE", price: "" },
-  { imageSrc: "/assets/img/portfolio/2.jpg", title: "PARING KNIFE", price: "" },
-  { imageSrc: "/assets/img/portfolio/3.jpg", title: "BREAD KNIFE", price: "" },
-  { imageSrc: "/assets/img/portfolio/IMG_1315.jpeg", title: "BONING KNIFE", price: "" },
-  { imageSrc: "/assets/img/portfolio/IMG_1830.jpeg", title: "SANTOKU KNIFE", price: "" },
-  { imageSrc: "/assets/img/portfolio/IMG_7804.jpg", title: "UTILITY KNIFE", price: "" },
+  { imageSrc: "/assets/img/portfolio/1.jpg", title: "", price: "" },
+  { imageSrc: "/assets/img/portfolio/2.jpg", title: "", price: "" },
+  { imageSrc: "/assets/img/portfolio/3.jpg", title: "", price: "" },
+  { imageSrc: "/assets/img/portfolio/IMG_1315.jpeg", title: " ", price: "" },
+  { imageSrc: "/assets/img/portfolio/IMG_1830.jpeg", title: "", price: "" },
+  { imageSrc: "/assets/img/portfolio/IMG_7804.jpg", title: "", price: "" },
 ];
 
 const navigationBoxes = [
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Image Comparison */}
-      <section className="py-24 bg-gray-50">
+      {/* <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <ImageComparisonSlider
@@ -132,7 +132,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Navigation Boxes */}
       <NavigationGrid boxes={navigationBoxes} />
@@ -168,7 +168,7 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-
+  <br></br> <br></br>
       <Footer />
     </main>
   )

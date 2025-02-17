@@ -12,7 +12,7 @@ interface NavigationBoxProps {
 
 const NavigationBox: React.FC<NavigationBoxProps> = ({ title, href, imageSrc }) => {
   return (
-    <div className="relative aspect-square group">
+    <div className="relative aspect-square group ">
       <Image src={imageSrc} alt={title} fill className="object-cover" />
       <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
       <div className="absolute inset-x-0 bottom-8 flex justify-center">
@@ -33,7 +33,7 @@ interface NavigationGridProps {
 
 const NavigationGrid: React.FC<NavigationGridProps> = ({ boxes }) => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {boxes.map((box, index) => (
