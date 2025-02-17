@@ -20,7 +20,7 @@ const portfolioItems = [
 
 const navigationBoxes = [
   { title: "The Process", href: "/process", imageSrc: "/assets/img/about/4.jpg" },
-  { title: "How It Works", href: "/how-it-works", imageSrc: "/assets/img/header-bg.jpg" },
+  { title: "How It Works", href: "/howitworks", imageSrc: "/assets/img/header-bg.jpg" },
   { title: "About", href: "/about", imageSrc: "/assets/img/team/jason.jpg" },
   { title: "Contact", href: "/contact", imageSrc: "/assets/img/portfolio/pinkish.jpg" },
 ];
@@ -105,14 +105,14 @@ export default function Home() {
               <Image src="/assets/img/portfolio/IMG_8346.jpeg" alt="Featured knife" fill className="object-cover" />
             </div>
             <div className="max-w-xl">
-              <h2 className="text-3xl font-light tracking-wider mb-6">FEATURED PRODUCT</h2>
+              <h2 className="text-3xl font-light tracking-wider mb-6 text-gray-800">FEATURED PRODUCT</h2>
               <p className="text-gray-600 mb-8">
                 The Black Belt Series represents a cross-over of the craft celebrating two major parts of my life. Each knife is meticulously forged and finished
                 by hand, and custom made for each customer.
               </p>
               <Link
                 href="/portfolio"
-                className="inline-block border-2 border-black px-8 py-3 text-sm uppercase tracking-wider hover:bg-black hover:text-white transition-colors"
+                className="inline-block border-2 border-black px-8 py-3 text-sm uppercase tracking-wider hover:bg-black hover:text-white transition-colors text-gray-800"
               >
                 View More
               </Link>

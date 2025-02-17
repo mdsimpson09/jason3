@@ -14,7 +14,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-light tracking-wider text-center mb-8">About Jason Waynick</h1>
+          <h1 className="text-4xl font-light tracking-wider text-center mb-8 text-gray-800">About Jason Waynick</h1>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
             Bladesmith, Brazilian Jiu-Jitsu Purple Belt, Surfer, Family Man, and Crafting Badass.
           </p>
@@ -34,7 +34,7 @@ const AboutPage = () => {
               />
             </div>
             <div>
-              <h2 className="text-3xl font-light tracking-wider mb-6">The Bladesmith</h2>
+              <h2 className="text-3xl font-light tracking-wider mb-6 text-gray-800">The Bladesmith</h2>
               <p className="text-gray-600 mb-4">
                 Jason Waynick is a passionate bladesmith based in Nashville, Tennessee. With years of experience and a
                 keen eye for detail, Jason crafts unique, high-quality knives that blend functionality with artistry.
@@ -56,7 +56,7 @@ const AboutPage = () => {
               <Image src="/assets/img/portfolio/bjj.jpg" alt="Jason practicing BJJ" fill className="object-cover" />
             </div>
             <div className="md:order-1">
-              <h2 className="text-3xl font-light tracking-wider mb-6">Brazilian Jiu-Jitsu Enthusiast</h2>
+              <h2 className="text-3xl font-light tracking-wider mb-6 text-gray-800">Brazilian Jiu-Jitsu Enthusiast</h2>
               <p className="text-gray-600 mb-4">
                 When he's not in the workshop, Jason is often found on the mats. He attempts to bring the same focus and
                 discipline to his training as he does to his bladesmithing. His crafting is often better quality.
@@ -78,7 +78,7 @@ const AboutPage = () => {
               <Image src="/assets/img/portfolio/surf.jpg" alt="Jason surfing" fill className="object-cover" />
             </div>
             <div>
-              <h2 className="text-3xl font-light tracking-wider mb-6">Surfer and Family Man</h2>
+              <h2 className="text-3xl font-light tracking-wider mb-6 text-gray-800">Surfer and Family Man</h2>
               <p className="text-gray-600 mb-4">
                 Beyond the forge and the gym, Jason finds balance in life through surfing and spending time with his
                 family. The ocean provides a source of inspiration and rejuvenation.
@@ -107,7 +107,7 @@ const AboutPage = () => {
               />
             </div>
             <div className="md:order-1">
-              <h2 className="text-3xl font-light tracking-wider mb-6">Crafting with Passion</h2>
+              <h2 className="text-3xl font-light tracking-wider mb-6 text-gray-800">Crafting with Passion</h2>
               <p className="text-gray-600 mb-4">
                 In his Nashville workshop, Jason brings together the influences of his varied interests - the precision
                 of martial arts, the flow of surfing, and the warmth of family - to create knives that are truly unique.
@@ -123,7 +123,7 @@ const AboutPage = () => {
        {/* Quote Section */}
        <section className="py-24 bg-white">
         <div className="container mx-auto px-4 text-center">
-          <blockquote className="text-2xl font-light italic max-w-3xl mx-auto">
+          <blockquote className="text-2xl font-light italic max-w-3xl mx-auto text-gray-800">
             "Every knife I create is a reflection of my passion for craftsmanship, my love for martial arts, and the joy
             I find in life's simple pleasures. It's not just about making a tool; it's about creating a piece of art
             that tells a story."

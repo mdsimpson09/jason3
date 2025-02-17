@@ -126,7 +126,7 @@ export default function Navbar() {
               <button onClick={closeMenu} className="absolute top-4 left-4 text-black hover:opacity-70">
                 <X className="h-6 w-6" />
               </button>
-              <nav className="flex flex-col mt-16 space-y-4 border-t border-gray-400 pt-4">
+              <nav className="flex flex-col mt-16 space-y-4 border-t border-gray-400 pt-4 text-black">
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/about">About</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/portfolio">Gallery</Link>
                 <Link onClick={closeMenu} className="text-lg hover:opacity-70 border-b border-gray-400 pb-2" href="/process">My Process</Link>

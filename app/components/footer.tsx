@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Contact Info */}
           <div>
-            <h3 className="font-medium mb-4">Contact</h3>
+            <h3 className="font-medium mb-4 text-gray-800">Contact</h3>
             <p className="text-sm text-gray-600">
               Email: jdwaynick@gmail.com
               <br />
@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-medium mb-4">Quick Links</h3>
+            <h3 className="font-medium mb-4 text-gray-800">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
               <Link href="/shop" className="text-sm text-gray-600 hover:text-gray-900">
                 Shop
@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Social Links */}
           <div>
-            <h3 className="font-medium mb-4">Follow Us</h3>
+            <h3 className="font-medium mb-4 text-gray-800">Follow Us</h3>
             <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/jasonwaynick/?hl=en"
@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="font-medium mb-4">Newsletter</h3>
+            <h3 className="font-medium mb-4 text-gray-800">Newsletter</h3>
             <form className="flex flex-col space-y-2">
               <input
                 type="email"
