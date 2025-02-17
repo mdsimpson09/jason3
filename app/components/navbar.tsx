@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Search, User, ShoppingCart, Menu } from "lucide-react"
+import { Search, Instagram, Facebook, Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet"
 
 export default function Navbar() {
@@ -56,20 +56,29 @@ export default function Navbar() {
             WAYNICK KNIVES
           </Link>
 
+   
           <div className="flex items-center space-x-6">
-            <button className={`${isScrolled ? "text-black" : "text-white"} hover:opacity-70`}>
-              <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
-            </button>
-            <button className={`${isScrolled ? "text-black" : "text-white"} hover:opacity-70`}>
-              <User className="h-5 w-5" />
-              <span className="sr-only">Account</span>
-            </button>
-            <button className={`${isScrolled ? "text-black" : "text-white"} hover:opacity-70`}>
-              <ShoppingCart className="h-5 w-5" />
-              <span className="sr-only">Cart</span>
-            </button>
-          </div>
+    
+          <Link
+            href="https://www.instagram.com/jasonwaynick/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${isScrolled ? "text-black" : "text-white"} hover:opacity-70`}
+          >
+            <Instagram className="w-5 h-5" />
+            <span className="sr-only">Instagram</span>
+          </Link>
+          <Link
+            href="https://www.facebook.com/jason.waynick.7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${isScrolled ? "text-black" : "text-white"} hover:opacity-70`}
+          >
+            <Facebook className="w-5 h-5" />
+            <span className="sr-only">Facebook</span>
+          </Link>
+       
+      </div>
         </div>
       </div>
     </nav>
