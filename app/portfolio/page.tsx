@@ -85,7 +85,6 @@
 // };
 
 // export default GalleryPage;
-
 "use client"
 
 import Image from "next/image"
@@ -134,13 +133,21 @@ const GalleryPage = () => {
       description: "1084 Carbon Steel with Spalted Oak Burl handle.",
     },
     {
-      images: ["/assets/img/portfolio/IMG_1829.jpeg", "/assets/img/portfolio/IMG_1830.jpeg", "/assets/img/portfolio/IMG_1835.jpeg"],
+      images: [
+        "/assets/img/portfolio/IMG_1829.jpeg",
+        "/assets/img/portfolio/IMG_1830.jpeg",
+        "/assets/img/portfolio/IMG_1835.jpeg",
+      ],
       title: "1084 with maple burl",
       price: "",
       description: "Made with epoxy handle. ",
     },
     {
-      images: ["/assets/img/portfolio/green2.jpeg", "/assets/img/portfolio/IMG_1849.jpeg", "/assets/img/portfolio/IMG_1844.jpeg"],
+      images: [
+        "/assets/img/portfolio/green2.jpeg",
+        "/assets/img/portfolio/IMG_1849.jpeg",
+        "/assets/img/portfolio/IMG_1844.jpeg",
+      ],
       title: "1084",
       price: "",
       description: "Made with dyed maple burle.",
@@ -178,6 +185,14 @@ const GalleryPage = () => {
     <main className="min-h-screen bg-gray-100">
       <Navbar />
       <HeroCarousel />
+
+    <section className="py-12 bg-gray-50">
+    
+        <div className="text-center mb-16">
+          <span className="text-lg uppercase tracking-widest text-gray-600">In The</span>
+          <h2 className="-mb-20 text-4xl font-light tracking-wider mt-2">GALLERY</h2>
+        </div>
+        </section>
 
       <section className="py-12 bg-white m-4">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
