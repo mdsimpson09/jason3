@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 const images = [
   "/assets/img/portfolio/blackbelt2.jpg",
@@ -40,11 +41,14 @@ export default function HeroCarousel() {
       ))}
       <div className="absolute inset-0 bg-black/40" />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-        <p className="text-sm uppercase tracking-widest mb-4">Crafted Precision in Every Slice</p>
+        <p className="text-sm uppercase tracking-widest mb-4">Handcrafted Precision </p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-wider mb-8">WAYNICK KNIVES</h1>
-        <button className="border border-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-          Shop Now
-        </button>
+
+        <Link href="/contact" passHref>
+          <button className="border border-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
+          Order Yours Today
+          </button>
+        </Link>
       </div>
 
       {/* Carousel Indicators */}
@@ -62,4 +66,3 @@ export default function HeroCarousel() {
     </div>
   )
 }
-
