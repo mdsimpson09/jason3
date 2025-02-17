@@ -28,7 +28,7 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const response = await fetch('https://formspree.io/f/mnqkzjyk', {
+    const response = await fetch('https://formspree.io/f/mbldpdea', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...formData, emailTo: 'jdwaynick@gmail.com' }),
