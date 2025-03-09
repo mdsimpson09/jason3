@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Instagram, Facebook } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,16 +9,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Contact Info */}
           <div>
-            <h3 className="font-medium mb-4 text-gray-800">Contact</h3>
-            <p className="text-sm text-gray-600">
-              Email: jdwaynick@gmail.com
-              <br />
-              Phone: (615) 506-2336
-              <br />
-              Location: Nashville, TN
-            </p>
-          </div>
-
+              <div className="-mt-10">
+                 <Image
+                   src="/assets/img/logos/8.png"
+                   alt="Jason working on a knife"
+                   width={200}
+                   height={200}
+                   
+                   className="object-cover"
+                 />
+               </div>
+               </div>
           {/* Quick Links */}
           <div>
             <h3 className="font-medium mb-4 text-gray-800">Quick Links</h3>
@@ -64,20 +66,17 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="font-medium mb-4 text-gray-800">Newsletter</h3>
-            <form className="flex flex-col space-y-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="px-4 py-2 border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-gray-200"
-              />
-              <button
-                type="submit"
-                className="px-4 py-2 bg-black text-white text-sm uppercase tracking-wider hover:bg-gray-900 transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
+          <div>
+            <h3 className="font-medium mb-4 text-gray-800">Contact</h3>
+            <p className="text-sm text-gray-600">
+              Email: jdwaynick@gmail.com
+              <br />
+              Phone: (615) 506-2336
+              <br />
+              Location: Nashville, TN
+            </p>
+          </div>
+
           </div>
         </div>
 

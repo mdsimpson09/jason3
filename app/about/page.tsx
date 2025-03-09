@@ -14,7 +14,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-light tracking-wider text-center mb-8 text-gray-800">About Jason Waynick</h1>
+          <h1 className="text-4xl font-light tracking-wider text-center mb-8 text-gray-800">About Jason</h1>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
             Bladesmith, Brazilian Jiu-Jitsu Purple Belt, Surfer, Family Man, and Crafting Badass.
           </p>
